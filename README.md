@@ -1,4 +1,4 @@
-geocolor
+# geocolor - was geocolor.io
 ========
 
 geocolor classifies data contained in geojson properties, and assigns color values based on the [simplestyle-spec](https://github.com/mapbox/simplestyle-spec/blob/master/1.1.0/README.md). This means that when your geojson is rendered in github, [gists](https://gist.github.com/morganherlocker/b963cc241018326f1d16), mapbox, or other simplestyle-spec compliant renderers, you will get nice styles that help to visualize your data.
@@ -9,11 +9,11 @@ geocolor classifies data contained in geojson properties, and assigns color valu
 npm install geocolor
 ```
 
-##Colors
+## Colors
 
 The color gradient is defined by simply passing an array of colors with as many stops as you want.
 
-##Classification
+## Classification
 
 Curently supported classifications:
 
@@ -21,7 +21,7 @@ Curently supported classifications:
 - quantiles
 - jenks
 
-##Example
+## Example
 
 ![gradient](https://raw2.github.com/morganherlocker/geocolor/master/img/Screen%20Shot%202014-02-06%20at%203.55.30%20PM.jpg)
 
@@ -43,7 +43,7 @@ geo = geocolor(cities, z, classification, numberOfBreaks, colors)
 console.log(geo) 
 ```
 
-##Dev
+## Dev
 
 Running tests:
 
@@ -51,7 +51,7 @@ Running tests:
 npm test
 ```
 
-##More Examples
+## More Examples
 
 ![choloropleth](http://morganherlocker.com/img/poverty_styled.jpg)
 
